@@ -1,14 +1,17 @@
-let arr = [5,5,4];
-
+let arr = [5,5,5];
+let chek = null;
 for (i = 0; i < arr.length; i++){
     let element = arr[i];
         if(element !== arr[0]){
-            console.log(false);
+            chek = false;
+            
             break;
 
         }
         else{
-            console.log(true)
+        
+            chek = true
             
         }
     }
+    console.log(chek);
