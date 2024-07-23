@@ -1,4 +1,4 @@
-let arr = [5,5,5];
+let arr = [4,5,5];
 let chek = null;
 for (i = 0; i < arr.length; i++){
     let element = arr[i];
